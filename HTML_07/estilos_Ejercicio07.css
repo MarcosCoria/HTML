@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+    
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: blue;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: green;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: red;
+}

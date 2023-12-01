@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1><i>¡Hola!</i>, mi nombre es <strong>Marcos</strong> </h1>
+    <p>
+    <h2>Soy estudiante de <i>Egg Cooperation</i> y tengo 29 años <br>
+        Tengo 2 gatas: <strong>Mía</strong> y <strong>Dahian</strong><br>
+        Estamos comenzando con html y css <br><br>
+        <u>Países del mundo</u><i>(Lista desordenada)</i>:
+        <ul>
+            <li type="disc">Argentina</li>
+            <li type="circle">Chile</li>
+            <li type="square">Perú</li>
+        </ul>
+        <u>Reglas de convivencia</u><i>(Lista ordenada)</i>
+        <ol>
+            <li> Respeta a tu compañero y escucha su opinión </li>
+            <li> Trata amablemente a tu entorno </li>
+        </ol>
+        <U>Ordenamos por números</U>
+        <ol type="1">
+            <li> Elemento 1 </li>
+            <li> Elemento 2 </li>
+        </ol>
+        <U>Ordenamos por letras</U>
+        <ol type="a">
+            <li> Elemento a </li>
+            <li> Elemento b </li>
+        </ol>
+        <U>Ordenamos por números romanos empezando por el 10</U>
+        <ol type="i" start="10">
+            <li> Elemento x </li>
+            <li> Elemento xi </li>
+        </ol>
+        <U>Ciudades del mundo</U>
+        <ul>
+            <li>Argentina </li>
+            <ol>
+                <li>Buenos Aires </li>
+                <li>Bariloche </li>
+            </ol>
+            <li>Uruguay </li>
+            <ol>
+                <li>Montevideo </li>
+                <li>Punta del Este </li>
+            </ol>
+        </ul>
+        Enlace para redirigir a Egg: <br>
+        <a href="https://eggeducacion.com/es-AR/">Home de EggEducación</a> <br>
+        Enlace para redirigir a Google: <br>
+        <a href="https://www.google.com.ar/"><img src="C:/Users/G96xyFast/Desktop/Programación/PRACTICA/HTML/HTML_01/Charizard.jpg"
+                alt="Imagen de Charizard"></a> <br>
+        <!-- <th>: encabezados columnas & <tr>: Filas -->
+        <table>
+            <tr>
+                <th>Titulo Celda 1</th>
+                <th> Titulo Celda 2</th>
+            </tr>
+            <tr>
+                <td>Celda 1, línea 1</td>
+                <td> Celda 2, línea 1</td>
+            </tr>
+            <tr>
+                <td> Celda 1, línea 2</td>
+                <td> Celda 2, línea 2</td>
+            </tr>
+        </table> <br>
+        <form>
+            <u>Formularios: </u> Uso de Value: <br>
+            <input type="text" name="instituto" value="Egg Educación"> <br>
+            Uso de Placeholder <br>
+            <input type="text" name="nombre " placeholder="Nombre del usuario"> <br>
+            <u>Uso de Label:</u><br>
+            <label>Nombre del Usuario: </label>
+            <input type="text" name="nombre"><br>
+            <label for="numero">Ingrese un número: </label>
+            <input type="number" id="numero"> <br>
+            <label for="fecha">Fecha de Nacimiento: </label>
+            <input type="date" id="fecha"> <br>
+            <label for="correo">Correo Electrónico: </label>
+            <input type="email" id="correo"> <br>
+            <label for="codigo">Ingrese contraseña: </label>
+            <input type="password" id="codigo"> <br>
+            Comentario: <br>
+            <textarea name="comentario" rows="10" cols="40">Escribe tu comentario…</textarea> <br>
+            <u>Lista de opciones: </u>
+            <select name="estacion">
+                <option>Primavera</option>
+                <option selected>Verano</option>
+                <option>Otoño</option>
+                <option>Invierno</option>
+            </select> <br>
+            <u>Segunda forma de listado con Label: </u> <br>
+            <input type="radio" id="primavera" name="estacion" value="1">
+            <label for=" primavera">Primavera</label> <br>
+            <input type="radio" id="verano" name="estacion" value="2">
+            <label for="verano">Verano</label> <br>
+            <input type="radio" id="otonio" name="estacion" value="3">
+            <label for="otonio">Otoño</label> <br>
+            <input type="radio" id="invierno" name="estacion" value="4">
+            <label for="invierno">Invierno</label>
+        </form>
+        <h1>Ejemplo de Egg: </h1>
+        <form action="ruta del método que va a manejar la información" method="POST" enctype="multipart/form-data">
+            <label>Nombre del usuario</label> <br>
+            <input type="text" name="nombre"> <br>
+            <label>Edad del usuario</label> <br>
+            <input type="number" name="edad "> <br>
+            <label>Fecha de nacimiento del usuario</label> <br>
+            <input type="date" name="fechanac"> <br>
+            <label>Sexo del usuario</label> <br>
+            <input type="radio" name="sexo" value="Hombre"> Hombre <br>
+            <input type="radio" name="sexo" value="Mujer"> Mujer <br>
+            <label>País nacimiento del usuario</label> <br> <select name="pais">
+                <option>Argentina</option>
+                <option>Brasil</option>
+                <option>Chile</option>
+                <option>Uruguay</option>
+            </select> <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </form>
+        <p>Yo estudio en <span style="color: red">Egg</span> Programación FullStack </p> <br>
+
+    </h2>
+    </p>
+    <h1>Estilos para una sección de la página: </h1> <br>
+    <div style="color: #000099; font-weight: bold">
+        <h3>Estas etiquetas van en <strong>azul y negrita</strong></h3>
+        <p> Seguimos dentro del DIV, por lo tanto permanecen los estilos </p>
+    </div>
+    <h1><u>Ejercicio EGG 01: </u> (Tamaño 1)</h1>
+    <h2><u>Título: </u> (Tamaño 2)</h2>
+    <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, amet officiis. Deserunt
+        sapiente sunt nam, porro atque, dignissimos debitis fugiat fugit optio tenetur amet voluptate
+        laborum accusamus dolore odit expedita!</b></p>
+    <h3><u>Subtítulo: </u> (Tamaño 3)</h3>
+    <p><i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non consequatur, quia sequi nam
+        unde magni doloremque similique reprehenderit explicabo. A assumenda iure, minus veritatis
+        voluptate quo vitae eum voluptates nihil.</i></p>
+</body>
+
+</html>

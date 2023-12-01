@@ -1,0 +1,40 @@
+a.g:link{
+    color: 	#CC0000;
+}
+a.g:hover{
+    color:#FFF;
+    background-color: #CC0000;
+}
+a.g:visited{
+    color: grey;
+}
+a.b:link{
+    color: 	#CC0000;
+}
+a.b:hover{
+    color:#FFF;
+    background-color: #CC0000;
+}
+a.b:visited{
+    color: grey;
+}
+a.l:link{
+    color: 	#CC0000;
+}
+a.l:hover{
+    color:#FFF;
+    background-color: #CC0000;
+}
+a.l:visited{
+    color: grey;
+}
+a.f:link{
+    color: 	#CC0000;
+}
+a.f:hover{
+    color:#FFF;
+    background-color: #CC0000;
+}
+a.f:visited{
+    color: grey;
+}
